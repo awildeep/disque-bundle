@@ -1,0 +1,5 @@
+
+services:
+    awildeep_disque:
+        class: Awildeep\DisqueBundle\Services\DisqueClientService
+        arguments: ["%awildeep_disque.servers%", "%awildeep_disque.autoconnect%", "%awildeep_disque.connection_timeout%"]

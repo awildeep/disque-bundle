@@ -1,0 +1,32 @@
+{
+    "name": "awildeep/disque-bundle",
+    "description": "Disque bundle for Symfony",
+    "keywords": ["symfony", "disque", "bundle", "queueing", "messaging", "asynchronous"],
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "homepage": "https://github.com/awildeep/disque-bundle",
+    "authors": [
+        {
+            "name": "Greg Militello",
+            "email": "junk@thinkof.net "
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "psr/log": "~1.0",
+        "symfony/framework-bundle": "~2.3",
+        "symfony/console": "~2.3",
+        "mariano/disque-php": "~1.3"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": { "Awildeep\\DisqueBundle": "" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
